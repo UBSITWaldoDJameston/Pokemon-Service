@@ -15,6 +15,21 @@ export class TrainerServiceService {
     name: ['Misty'],
     team:['Starmie','Psyduck'],
     items:['Mystic']
+    },
+    {
+      name: ['Claire'],
+      team:['Pikachu', 'Charizard'],
+      items:['Light Ball', 'Charizardite Y']
+    },
+    {
+    name: ['Falkner'],
+    team:['Charizard','Psyduck'],
+    items:['Mystic']
+    },
+    {
+    name: ['Brock'],
+    team:['Starmie','Psyduck'],
+    items:['Mystic']
     }
   ]);
   //Expose Signal as read only 
