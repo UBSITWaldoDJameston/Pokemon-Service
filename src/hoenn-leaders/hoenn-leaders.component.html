@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Pokemon League Registry</h1>
+    @for (leader of hoennService.leaders(); track leader.name){
+
+    
+    <div class="trainer-card">
+        <h2>Trainer: {{ leader.name }}</h2>
+        <ul>
+            @for(pokemon of leader.team;track $index){
+        
+            <strong>{{ pokemon }}</strong>
+            <br>
+            <small>Held Item: {{leader.items[$index]}}
+            </small>
+    }
+        </ul>   
+    </div>
+    }
+</div>

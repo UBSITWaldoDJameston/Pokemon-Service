@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TrainerDisplayComponent } from './trainer-display.component';
+import { HoennLeadersComponent } from './hoenn-leaders.component';
 
-describe('TrainerDisplayComponent', () => {
-  let component: TrainerDisplayComponent;
-  let fixture: ComponentFixture<TrainerDisplayComponent>;
+describe('HoennLeadersComponent', () => {
+  let component: HoennLeadersComponent;
+  let fixture: ComponentFixture<HoennLeadersComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TrainerDisplayComponent]
+      imports: [HoennLeadersComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TrainerDisplayComponent);
+    fixture = TestBed.createComponent(HoennLeadersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
