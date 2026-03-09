@@ -8,7 +8,7 @@ export class HoennServiceService {
     {
       name: ['Roxanne'],
       team:['Geodude', 'Nosepass'],
-      items:['Light Ball', 'Charizardite']
+      items:['Everstone', 'The Magnet']
     },
     {
     name: ['Brawly'],
