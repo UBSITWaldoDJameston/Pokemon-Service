@@ -8,10 +8,18 @@
         <ul>
             @for(pokemon of leader.team;track $index){
         
-            <strong>{{ pokemon }}</strong>
+            
+            <div class="pokemon-list">
+                <div class="pokemoen-list-kanto-region">
+                    <strong>{{ pokemon }}</strong>
+                    <br>
+                    <div class="pokemon-image"><img [src]="'https://projectpokemon.org/images/normal-sprite/' + pokemon.toLowerCase() + '.gif'" [alt]="pokemon"> </div>
+                <br>           
+                    <strong>Held Item: {{leader.items[$index]}}
+            </strong>
+                </div>
+            </div>
             <br>
-            <small>Held Item: {{leader.items[$index]}}
-            </small>
     }
         </ul>   
     </div>

@@ -8,28 +8,29 @@ export class HoennServiceService {
     {
       name: ['Roxanne'],
       team:['Geodude', 'Nosepass'],
-      items:['Light Ball', 'Charizardite Y']
+      items:['Light Ball', 'Charizardite']
     },
     {
     name: ['Brawly'],
-    team:['Machop ','Makuhita '],
+    team:['Machop','Makuhita'],
     items:['Mystic']
     },
     {
       name: ['Wattson'],
-      team:['Magnemite ', 'Magneton '],
-      items:['Light Ball', 'Charizardite Y']
+      team:['Magnemite', 'Magneton'],
+      items:['Light Ball', 'Charizardite']
     },
     {
     name: ['Flannery'],
-    team:['Slugma','Torkoal '],
+    team:['Slugma','Torkoal'],
     items:['Mystic']
     },
     {
     name: ['Winona'],
-    team:['Pelipper','Swellow '],
+    team:['Pelipper','Swellow'],
     items:['Mystic']
     }
   ]);
   leaders = this.registry.asReadonly();
+
 }

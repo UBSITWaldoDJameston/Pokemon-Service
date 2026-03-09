@@ -8,7 +8,7 @@ export class KantoServiceService {
     {
       name: ['Brock'],
       team:['Graveler', 'Rhyhorn'],
-      items:['Light Ball', 'Charizardite ']
+      items:['Light Ball', 'Charizardite']
     },
     {
     name: ['Misty'],

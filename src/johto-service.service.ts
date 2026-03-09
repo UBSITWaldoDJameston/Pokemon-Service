@@ -8,7 +8,7 @@ export class JohtoServiceService {
     {
       name: ['Falkner'],
       team:['Pidgey', 'Pidgeotto'],
-      items:['Light Ball', 'Charizardite Y']
+      items:['Light Ball', 'Charizardite']
     },
     {
     name: ['Bugsy'],
